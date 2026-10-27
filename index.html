@@ -71,10 +71,11 @@ h1{font-size:clamp(44px,7vw,86px)}
 .soc{display:flex;gap:22px;margin-top:28px;font-size:14.5px;color:var(--muted)}
 .soc a{text-decoration:none;border-bottom:1px solid var(--line)}
 .soc a:hover{color:var(--accent);border-color:var(--accent)}
-.photo{max-width:380px;margin:0 0 0 auto;width:100%;position:relative}
-.photo::before{content:"";position:absolute;inset:16px -16px -16px 16px;border:1px solid var(--accent);border-radius:22px;opacity:.5}
-.photo img{position:relative;display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:22px;border:1px solid var(--line)}
-@media(max-width:860px){.hero-grid{grid-template-columns:1fr;gap:48px}.hero{padding-top:48px}}
+.photo{max-width:280px;margin:0 auto;width:100%;position:relative}
+.photo::before{content:"";position:absolute;inset:12px -12px -12px 12px;border:1px solid var(--accent);border-radius:20px;opacity:.45;pointer-events:none}
+.photo img{position:relative;display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center center;border-radius:20px;border:1px solid var(--line)}
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr;gap:34px}.hero{padding-top:48px}.photo{max-width:230px;margin:0 auto}}
+@media(max-width:480px){.photo{max-width:205px}.photo::before{inset:9px -9px -9px 9px}}
 
 /* stats + hairline grids */
 .stats,.grid{display:grid;border-top:1px solid var(--line);border-left:1px solid var(--line)}
@@ -169,8 +170,8 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
     <p class="sub">Full-stack web applications with MongoDB, Express, React and Node.js: live chat, REST APIs and AI-powered features, deployed and running.</p>
     <div class="cta">
       <a class="btn pri" href="#work">View projects</a>
-      <a class="btn" href="resume.pdf" target="_blank" rel="noopener">View resume</a>
-      <a class="btn" href="resume.pdf" download>Download</a>
+      <a class="btn" href="Tamilselvan_R_Resume_.pdf" target="_blank" rel="noopener">View resume</a>
+      <a class="btn" href="Tamilselvan_R_Resume_.pdf" download>Download</a>
     </div>
     <div class="soc"><a href="https://github.com/tamilselvanr05" target="_blank" rel="noopener">GitHub</a><a href="https://linkedin.com/in/tamil-selvan-574b212a8" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:tamilselvan.rgp@gmail.com">Email</a></div>
   </div>
@@ -283,10 +284,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 <section id="resume"><div class="wrap">
   <div class="head"><div><div class="eye">Resume</div><h2>My resume.</h2></div></div>
   <div class="rbar">
-    <a class="btn pri" href="resume.pdf" target="_blank" rel="noopener">View resume</a>
-    <a class="btn" href="resume.pdf" download="Tamilselvan_R_Resume.pdf">Download PDF</a>
+    <a class="btn pri" href="Tamilselvan_R_Resume_.pdf" target="_blank" rel="noopener">View resume</a>
+    <a class="btn" href="Tamilselvan_R_Resume_.pdf" download="Tamilselvan_R_Resume.pdf">Download PDF</a>
   </div>
-  <object class="viewer" data="resume.pdf#view=FitH" type="application/pdf"><p>Your browser can’t show the PDF here. Use the View resume button above to open it.</p></object>
+  <object class="viewer" data="Tamilselvan_R_Resume_.pdf#view=FitH" type="application/pdf"><p>Your browser can’t show the PDF here. Use the View resume button above to open it.</p></object>
 </div></section>
 
 <section id="contact"><div class="wrap">
@@ -294,7 +295,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
     <div class="eye">Contact</div>
     <h2>Let’s build something together.</h2>
     <p>I’m open to MERN stack and full-stack developer roles. Email is the fastest way to reach me.</p>
-    <div class="cta" style="margin-top:0"><a class="btn pri" href="mailto:tamilselvan.rgp@gmail.com">Email me</a><a class="btn" href="resume.pdf" target="_blank" rel="noopener">View resume</a></div>
+    <div class="cta" style="margin-top:0"><a class="btn pri" href="mailto:tamilselvan.rgp@gmail.com">Email me</a><a class="btn" href="Tamilselvan_R_Resume_.pdf" target="_blank" rel="noopener">View resume</a></div>
     <div class="clist"><a href="mailto:tamilselvan.rgp@gmail.com">tamilselvan.rgp@gmail.com</a><a href="tel:+919345529825">+91 93455 29825</a><a href="https://linkedin.com/in/tamil-selvan-574b212a8" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/tamilselvanr05" target="_blank" rel="noopener">GitHub</a></div>
   </div>
 </div></section>
